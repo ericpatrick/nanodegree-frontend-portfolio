@@ -6,7 +6,7 @@
 }
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 
@@ -45,8 +45,8 @@ header figure img {
 }
 
 hr {
-  color: #2D3C49;
-  background-color: #2D3C49;
+  color: #2d3c49;
+  background-color: #2d3c49;
   height: 1px;
 }
 
@@ -56,16 +56,16 @@ hr {
   margin-bottom: 35px;
 }
 
-.profile-description a, .profile-description a:visited {
-  color: #2D3C49;
+.profile-description .email-contact-link, .profile-description .email-contact-link:visited {
+  color: #2d3c49;
 }
 
-.profile-description address a {
+.profile-description .email-contact .email-contact-link {
   text-decoration: none;
 }
 
 h3 {
-  color: #7D97AD;
+  color: #7d97ad;
   font-size: 32px;
   margin: auto 0;
 }
@@ -109,11 +109,11 @@ section article a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .title h1 {
+  .title .title-name {
     font-size: 46px
   }
 
-  .title p {
+  .title .title-assignment {
     font-size: 16px;
   }
 
